@@ -95,5 +95,11 @@ body {
     width: 100%;
     max-width: 300px;
 }
+/* ===== ANNOUNCEMENTS ===== */
+.announcement {
+    background: #ffeeba;
+    padding: 15px;
+    margin-top: 15px;
+}
 
 

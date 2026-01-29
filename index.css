@@ -91,4 +91,9 @@ body {
     gap: 20px;
     flex-wrap: wrap;
 }
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+}
+
 

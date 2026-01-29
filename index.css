@@ -59,4 +59,13 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+/* ===== INTRO ===== */
+.intro {
+    padding: 30px;
+    background: #f4f4f4;
+}
 
+/* ===== SECTIONS ===== */
+.section {
+    padding: 30px;
+}

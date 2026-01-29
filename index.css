@@ -1,22 +1,62 @@
-.nav-links{
-    margin: 0px;
-    padding: 0px;
-    gap: 20px;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-a{
-    color: green;
-    text-decoration: none;
-}
-.navbar {
-    background-color: #003366;
-    padding:  20px;
+/* ===== GENERAL STYLES ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-/* HOVER EFFECT */
-.nav-links li a:hover {
-    background-color: #0059b3;
-    border-radius: 4px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003366;
+    padding: 15px;
+}
+
+.logo {
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background: #0055aa;
+}
+
+/* ===== DROPDOWN ===== */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    min-width: 150px;
+}
+
+.dropdown-menu li a {
+    color: black;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+

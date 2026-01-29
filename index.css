@@ -102,4 +102,44 @@ body {
     margin-top: 15px;
 }
 
+/* ===== STICKY NOTICE ===== */
+.sticky-notice {
+    position: sticky;
+    top: 0;
+    background: #ff4444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ===== DISPLAY BEHAVIOR ===== */
+.display-box {
+    padding: 20px;
+    margin: 10px 0;
+    background: #ddd;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+}
 

@@ -1,4 +1,4 @@
-
+/* ===== GENERAL STYLES ===== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
 }
 
+/* ===== NAVBAR ===== */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -58,19 +59,21 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+/* ===== INTRO ===== */
 .intro {
     padding: 30px;
     background: #f4f4f4;
 }
 
-
+/* ===== SECTIONS ===== */
 .section {
     padding: 30px;
 }
-
+/* ===== SECTIONS ===== */
 .section {
     padding: 30px;
 }
+/* ===== CARDS ===== */
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -138,5 +141,8 @@ footer {
         flex-direction: column;
     }
 
+    .sticky-notice {
+        font-size: 14px;
+    }
 }
 

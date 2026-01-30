@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+/* ===== GENERAL STYLES ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +14,10 @@ body {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
+=======
+/* ===== NAVBAR ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,6 +49,10 @@ body {
     background: #0055aa;
 }
 
+<<<<<<< HEAD
+=======
+/* ===== DROPDOWN ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -57,17 +69,33 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+<<<<<<< HEAD
+=======
+/* ===== INTRO ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .intro {
     padding: 30px;
     background: #f4f4f4;
 }
 
+<<<<<<< HEAD
 .section {
     padding: 30px;
 }
 .section {
     padding: 30px;
 }
+=======
+/* ===== SECTIONS ===== */
+.section {
+    padding: 30px;
+}
+/* ===== SECTIONS ===== */
+.section {
+    padding: 30px;
+}
+/* ===== CARDS ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -79,6 +107,10 @@ body {
     padding: 20px;
     background: #fff;
 }
+<<<<<<< HEAD
+=======
+/* ===== GALLERY ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .gallery {
     display: flex;
     gap: 20px;
@@ -88,12 +120,20 @@ body {
     width: 100%;
     max-width: 300px;
 }
+<<<<<<< HEAD
+=======
+/* ===== ANNOUNCEMENTS ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .announcement {
     background: #ffeeba;
     padding: 15px;
     margin-top: 15px;
 }
 
+<<<<<<< HEAD
+=======
+/* ===== STICKY NOTICE ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .sticky-notice {
     position: sticky;
     top: 0;
@@ -103,6 +143,10 @@ body {
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+/* ===== DISPLAY BEHAVIOR ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 .display-box {
     padding: 20px;
     margin: 10px 0;
@@ -113,6 +157,10 @@ body {
     display: none;
 }
 
+<<<<<<< HEAD
+=======
+/* ===== FOOTER ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 footer {
     background: #003366;
     color: white;
@@ -120,6 +168,10 @@ footer {
     padding: 15px;
 }
 
+<<<<<<< HEAD
+=======
+/* ===== RESPONSIVE ===== */
+>>>>>>> 24c0102b2ba6bd6edd865ef5ad1ac2e1f9a4d347
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
